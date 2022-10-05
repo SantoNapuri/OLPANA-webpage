@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*----------HEADER--------*/
+
+.flex {
+    display: grid;
+    background-color: rgb(0, 183, 255);
+    grid-template-columns: 200px 727.2px;
+    grid-template-rows: 220px;
+    
+}
+
+
+
+.barra {display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 100px;
+    
+}
+
+
+
+
+.barra li a{    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: x-large;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgba(49, 49, 218, 0.733);
+    border-radius: 10%;
+    padding: 10px;
+}
+
+
+
+
+
+
+.flex img {
+width: 200px;
+height: 200px;
+justify-content: flex-start;
+margin: 10px;
+
+}
+
+/*----------MAIN--------*/
+
+.grid {
+    display: grid;
+    grid-template-columns:  200px 727.2px ;
+    grid-template-rows: 3fr;
+    margin: 10px;
+    
+    }
+
+
+
+
+
+.nave {
+    background-color: rgb(0, 183, 255);
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    grid-template-rows: 100px 100px 100px;
+    list-style: none;
+    transition: 2s;
+
+}
+
+.nave:hover{
+    transform: scale(1.1);
+
+
+}
+
+
+
+
+.nave li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: x-large;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgba(49, 49, 218, 0.733);
+    border-radius: 10%;
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+
+.info h1 { 
+    font-family: sans-serif;
+    font-size: xx-large;
+    margin: 10px;
+    
+}
+
+.info p {
+    margin: 10px;
+
+}
+.imagen h2 {
+    font-family: sans-serif;
+    font-size: x-large;
+
+}
+
+.imagen div img{ 
+    width: 700px;
+    height: 500px;
+    
+}
+.imagen {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/*----------FOOOTER--------*/
+
+footer img {
+    width: 50px;
+    height: 50px;
+    ;
+}
+
+footer {display: grid;
+grid-template-rows: 200px;
+grid-template-columns: 1;
+
+
+}
+
+
+
+footer iframe {
+   
+
+
+}
+
+
+.redes {
+display: flex;
+justify-content: right;
+margin: 10px;
+
+
+}
+
+
+.redes a{
+
+}
